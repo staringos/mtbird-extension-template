@@ -1,8 +1,7 @@
 {
-  "name": "@mtbird/extension-image-library",
+  "name": "<%- name %>",
   "version": "0.0.1-beta.5",
   "description": "The image library plugin",
-  "author": "zousongqi <george@staringos.com>",
   "homepage": "",
   "license": "MIT",
   "main": "dist/index.umd.js",
@@ -31,11 +30,11 @@
     "@mtbird/renderer-web": "^0.0.1",
     "@mtbird/shared": "^0.0.1-beta.4",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "antd": "^4.22.3"
   },
   "dependencies": {},
   "devDependencies": {
-    "@mtbird/cli": "^0.0.1-beta.6",
-    "antd": "^4.22.3"
+    "@mtbird/cli": "^0.0.1-beta.6"
   }
 }

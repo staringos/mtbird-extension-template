@@ -1,5 +1,5 @@
 {
-  "name": "mtbird-extension-example",
+  "name": "<%- name %>",
   "title": "拓展案例",
   "version": "0.0.1",
   "desc": "拓展案例",
