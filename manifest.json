@@ -1,8 +1,8 @@
 {
-  "name": "<%- name %>",
-  "title": "拓展案例",
+  "name": "<%- key %>",
+  "title": "<%- title %>",
   "version": "0.0.1",
-  "desc": "拓展案例",
+  "desc": "<%- desc %>",
   "tags": [
       "拓展案例"
   ],
