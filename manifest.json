@@ -13,8 +13,8 @@
           "params": {
               "name": "拓展案例"
           },
-          "link": "component",
-          "component": "example.tab"
+          "link": "feature",
+          "feature": "example.tab"
         }
     ]
   }

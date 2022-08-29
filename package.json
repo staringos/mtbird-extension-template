@@ -22,6 +22,7 @@
     "start": "NODE_ENV=development mtbird start",
     "serve": "NODE_ENV=production mtbird serve --port 3333",
     "build": "NODE_ENV=production mtbird build",
+    "publish": "NODE_ENV=production mtbird publish --token=changeTokenHere",
     "link": "npm link ../../../mtbird-saas/node_modules/react",
     "preDev": "lerna link & yarn run link",
     "test": "echo \"Error: run tests from root\" && exit 1"
