@@ -1,6 +1,6 @@
 {
   "name": "<%- name %>",
-  "version": "0.0.1-beta.5",
+  "version": "0.0.1",
   "description": "<%- desc %>",
   "homepage": "",
   "license": "MIT",
@@ -14,25 +14,14 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "scripts": {
     "start": "NODE_ENV=development mtbird start",
-    "serve": "NODE_ENV=production mtbird serve --port 3333",
     "build": "NODE_ENV=production mtbird build",
     "publish": "NODE_ENV=production mtbird publish --token=changeTokenHere",
-    "link": "npm link ../../../mtbird-saas/node_modules/react",
-    "preDev": "lerna link & yarn run link",
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "peerDependencies": {
-    "@mtbird/renderer-web": "^0.0.1-beta.7",
-    "@mtbird/shared": "^0.0.1-beta.7"
   },
   "dependencies": {},
   "devDependencies": {
+    "@mtbird/shared": "^0.0.1-beta.7",
     "@mtbird/cli": "^0.0.1-beta.7",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
