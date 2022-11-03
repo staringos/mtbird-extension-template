@@ -1,5 +1,5 @@
 import { IExtensionContext } from '@mtbird/shared';
-import Example from './components/Example';
+import Example from './features/Example';
 
 const activity = (context: IExtensionContext) => {
   context.registerFeature('example.tab', Example);
